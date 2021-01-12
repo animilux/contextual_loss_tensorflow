@@ -10,7 +10,6 @@ pip install https://github.com/bravery27/contextual_loss_tensorflow.git
 ```
 
 ## Usage
-You can use it like PyTorch APIs.
 ```python
 import tensorflow as tf
 
