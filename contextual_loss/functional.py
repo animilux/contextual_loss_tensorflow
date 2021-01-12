@@ -1,6 +1,5 @@
 import tensorflow as tf
 import tensorflow.keras.backend as K
-from sklearn import metrics
 
 def contextual_loss(x, y, loss_type, h=0.5, channel_last=False) :
   if channel_last :
