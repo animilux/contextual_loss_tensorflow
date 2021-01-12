@@ -1,4 +1,5 @@
 # contextual_loss_tensorflow
+I converted https://github.com/S-aiueo32/contextual_loss_pytorch to tensorflow version and fixed some bugs(l1, l2 dist func).
 
 ## Requirements
 -  Python3.7+
@@ -12,6 +13,12 @@ pip install https://github.com/bravery27/contextual_loss_tensorflow.git
 ## Usage
 ```python
 import tensorflow as tf
+import contextual_loss.fuctional as F
+
+img1 = tf.random.uniform(shape=[1,32,32,3], minval=0., maxval=1.)
+img2 = tf.random.uniform(shape=[1,32,32,3], minval=0., maxval=1.)
+
+loss = F.contextual_loss(img1, img2, loss_type='l1', channel_last=True)
 
 ```
 
