@@ -6,7 +6,7 @@
 
 ## Installation
 ```
-pip install git+https://github.com/bravery27/contextual_loss_tensorflow.git
+pip install https://github.com/bravery27/contextual_loss_tensorflow.git
 ```
 
 ## Usage
