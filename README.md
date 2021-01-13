@@ -7,7 +7,7 @@ I converted https://github.com/S-aiueo32/contextual_loss_pytorch to tensorflow v
 
 ## Installation
 ```
-pip install https://github.com/bravery27/contextual_loss_tensorflow.git
+pip install https://github.com/animilux/contextual_loss_tensorflow.git
 ```
 
 ## Usage
